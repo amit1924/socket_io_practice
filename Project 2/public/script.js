@@ -42,6 +42,6 @@ socket.on("updateUsers", (users) => {
 socket.on("message", (message) => {
   const chatMessages = document.getElementById("chat-messages");
   const messageItem = document.createElement("div");
-  messageItem.innerHTML = `<strong>${message.sender}:</strong> ${message.message}`;
+  messageItem.innerHTML = `<strong style="color:yellow">${message.sender}:</strong> ${message.message}`;
   chatMessages.appendChild(messageItem);
 });

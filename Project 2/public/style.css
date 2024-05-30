@@ -50,6 +50,8 @@ button {
     border-radius: 5px;
     height: 200px;
     overflow-y: scroll;
+    color:blueviolet;
+    font-size: 25px;
 }
 
 #message-input {
